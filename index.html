@@ -12,10 +12,28 @@
 <body>
     <header>
         <h1>Times De São Paulo</h1>
-        <div><abbr title="PALMEIRAS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Palmeiras-icon.png" alt="Palmeiras-img"></abbr> <abbr title="CORINTHIANS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Corinthians-icon.png" alt="CORINTHIANS"></abbr> <abbr title="SÃO PAULO"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Sao-Paulo-icon.png" alt="SÃO PAULO"></abbr> <abbr title="SANTOS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Santos-icon.png" alt="Santos"></div></abbr>
+        <!--
+        <div><abbr title="PALMEIRAS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Palmeiras-icon.png" alt="Palmeiras-img"></abbr> <abbr title="CORINTHIANS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Corinthians-icon.png" alt="CORINTHIANS"></abbr> <abbr title="SÃO PAULO"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Sao-Paulo-icon.png" alt="SÃO PAULO"></abbr> <abbr title="SANTOS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Santos-icon.png" alt="Santos"></div></abbr>-->
     </header>
     <main>
         <h2>Escolha seu time</h2>
+        <div>
+            <abbr title="PALMEIRAS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Palmeiras-icon.png" alt="Palmeiras-img"></abbr> 
+            <input type="radio" name="radtim" id="pal" checked>
+            <abbr title="CORINTHIANS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Corinthians-icon.png" alt="CORINTHIANS"></abbr> 
+            <input type="radio" name="radtim" id="cor" checked>
+            <abbr title="SÃO PAULO"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Sao-Paulo-icon.png" alt="SÃO PAULO"></abbr> 
+            <input type="radio" name="radtim" id="sao" checked>
+            <abbr title="SANTOS"><img src="https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/32/Santos-icon.png" alt="Santos"></abbr>
+            <input type="radio" name="radtim" id="san" checked>
+        </div>
+        <p>
+            <input id="bot" type="button" value="verificar" onclick="verificar()">
+        </p>
+        <div id="res">
+            <p>...</p>
+        </div>
+        
     </main>
     <footer>
         Site Criado por <a href="">Guilherme Carvalho</a>
