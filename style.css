@@ -31,8 +31,8 @@ input#bot {
 }
 
 input#bot:hover {
-    background-color: green;
-    color: white;
+    background-color: rgba(81, 191, 255, 0.418);
+    color: rgb(0, 0, 0);
 }
 
 footer {
