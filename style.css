@@ -15,12 +15,21 @@ header {
 
 main {
     background-color: white;
-    width: 350px;
+    width: 550px;
     margin: auto;
     border-radius: 6px;
     box-shadow: 4px 4px 5px rgba(107, 107, 107, 0.863);
     padding-top: 1px;
     padding-bottom: 2px;
+}
+
+p#res {
+    padding: 0px 25px;
+    font-weight: bold;
+}
+
+p#res > img {
+    padding: 36px 60px;
 }
 
 input#bot {
