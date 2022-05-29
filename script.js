@@ -4,7 +4,7 @@ function Ver() {
     var img = document.createElement("img")
     var video = document.createElement("video")
     if(radios[0].checked) {
-        res.innerHTML = 'Palmeiras Quem tem 10 tem mais <br>'
+        res.innerHTML = 'Palmeiras Quem tem 10 tem mai <br>'
         res.innerHTML = 'Fundado por imigrantes italianos, seu primeiro nome foi Società Sportiva Palestra Italia. Em 1942, quando estava estabelecida como uma força do futebol paulista, a equipe foi obrigada a trocar de nome, passando a se chamar Sociedade Esportiva Palmeiras em decorrência da Segunda Guerra Mundial.<br>'
         img.src = "https://icons.iconarchive.com/icons/giannis-zographos/south-american-football-club/128/Palmeiras-icon.png"
         document.getElementById('res').appendChild(img)
